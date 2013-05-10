@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600" 
+			   xmlns:component="component.*">
+	<fx:Script>
+		<![CDATA[
+			public function playSound():void {
+				timeIsUpRing.playSound();
+			}
+			
+			public function stopSound():void {
+				timeIsUpRing.stopSound();
+			}
+		]]>
+	</fx:Script>	
+	<component:TimeIsUpRing id="timeIsUpRing" />
+	<mx:VBox>
+		<mx:Button label="play" click="playSound()"/>
+		<mx:Button label="stop" click="stopSound()"/>
+	</mx:VBox>
+</s:Application>

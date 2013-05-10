@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="PomodoroWeb">
+<testsuite name="component:PomodoroLengthDropDownListTest" type="testsuiteclass"/>
+<testsuite name="util:TestString" type="testsuiteclass"/>
+<testsuite name="component:CurrentTimeLabelTest" type="testsuiteclass"/>
+<testsuite name="component:SimpleTimerTest" type="testsuiteclass"/>
+<testsuite name="util:PomodoroUtilTest" type="testsuiteclass"/>
+<testsuite name="component:TimeIsUpLabelTest" type="testsuiteclass"/>
+</testsuite>
+<portNumber value="8765" />
+</testrun>
